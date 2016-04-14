@@ -1,0 +1,8 @@
+package proto_struct;
+
+message testProto {
+	
+  required int32 index = 1; 	
+  required string name = 2;
+  repeated string numbers = 3;
+}
